@@ -4,12 +4,15 @@
   "description": "Practise in backend web technology",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/indix.js"
   },
   "keywords": [
     "Javascript",
     "backend"
   ],
   "author": "Harsh Shastrakar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
